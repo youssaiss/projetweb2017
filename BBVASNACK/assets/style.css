@@ -1,0 +1,63 @@
+head {
+ background-image : url("assets/images/backgrounducl.jpg");
+ image-height: auto ;
+ width: 100%;
+ margin : auto;
+}
+
+  header img, header h1 {
+   
+  }
+  header h1 {
+   
+  }
+  header nav {
+   
+  }
+  h
+  }
+    header ul li {
+      
+    }
+      header ul li a {
+       
+      }
+
+#corps {
+
+}
+  #corps article {
+  
+  }
+    #corps article h1 {
+    
+    }
+    #corps article p {
+     
+    }
+      #corps article p:last-child {
+       
+      }
+
+#corps aside {
+ 
+}
+  #corps aside section h1 {
+   
+  }
+  #corps aside section p {
+   
+  }
+    #corps aside section:first-of-type h1 + p {
+    
+    }
+
+footer {
+ 
+}
+  footer ul li {
+ 
+  }
+    footer ul li:not(:first-of-type) {
+     
+    }

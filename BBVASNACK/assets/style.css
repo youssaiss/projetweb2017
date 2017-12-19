@@ -1,63 +1,50 @@
-head {
- background-image : url("assets/images/backgrounducl.jpg");
- image-height: auto ;
- width: 100%;
- margin : auto;
+body {
+background-image : url("images/patternbackground.png");
+}
+header {
+margin : auto;
+}
+header h2 {
+text-align : center;
 }
 
-  header img, header h1 {
-   
-  }
-  header h1 {
-   
-  }
-  header nav {
-   
-  }
-  h
-  }
-    header ul li {
-      
-    }
-      header ul li a {
-       
-      }
-
-#corps {
-
+header ul {
+	display : flex;
+	flex-direction : row ;
+	justify-content : center;
+	justify-content : space-around ; 
 }
-  #corps article {
-  
-  }
-    #corps article h1 {
-    
-    }
-    #corps article p {
-     
-    }
-      #corps article p:last-child {
-       
-      }
 
-#corps aside {
- 
+header ul li {
+text-align : center;
+font-style : bold ; 
+font-size : 150%;
+list-style-type : none;
 }
-  #corps aside section h1 {
-   
-  }
-  #corps aside section p {
-   
-  }
-    #corps aside section:first-of-type h1 + p {
-    
-    }
 
+header img {
+height : 250px;
+width : 250px;
+display : block;
+margin-left : auto;
+margin-right : auto;
+margin-bottom : auto;
+margin-top : auto;
+text-align : center;
+}
 footer {
- 
+margin : 0 2rem;
+border-top : 0.3rem solid blue;
+text-align : center;
 }
-  footer ul li {
- 
-  }
-    footer ul li:not(:first-of-type) {
-     
-    }
+footer ul li {
+margin : 0.3rem 0.6rem 0.4rem 0;
+padding : 0 0 0 0.6rem;
+display : inline-block;
+list-style : none;
+}
+footer ul li:not(:first-of-type) {
+border-left : 1px solid black;
+}
+↑ HAUT
+

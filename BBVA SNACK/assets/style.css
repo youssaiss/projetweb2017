@@ -1,0 +1,109 @@
+body {
+background-image : url("images/patternbackground.png");
+}
+header {
+margin : auto;
+}
+header h1 {
+text-align : center;
+}
+header ul {
+display : flex;
+flex-direction : row;
+justify-content : center;
+justify-content : space-around;
+border : #d8d6d6 double 0.2rem;
+}
+header ul li {
+text-align : center;
+font-family : Verdana;
+font-size : 12px;
+list-style-type : none;
+border-style : inset ;
+border-radius : 12px 0 12px 0;
+background : #e6e6e6;
+padding : 0px 14px;
+
+}
+header img {
+height : 250px;
+width : 250px;
+display : block;
+margin-left : auto;
+margin-right : auto;
+margin-bottom : auto;
+margin-top : auto;
+text-align : center;
+}
+footer {
+margin : 0 5rem;
+border-top : 0.3rem solid #d8d6d6;
+text-align : center;
+}
+footer ul li {
+margin : 0.3rem 0.6rem 0.4rem 0;
+padding : 0 0 0 0.8rem;
+display : inline-block;
+list-style : none;
+}
+footer ul li:not(:first-of-type) {
+border-left : 1px solid #d8d6d6;
+}
+
+.corps {
+text-align: center  ;
+font-size : 1.5em ;
+font-weight : bold ;
+
+}
+.quisommes {
+text-align: center  ;
+font-size : 1.5em ;
+font-weight : bold ;
+
+}
+.quisommes img {
+  display : flex ;
+  flex-direction : column ;
+  justify-content : center ;
+  margin : auto ;
+  height : 250px;
+  width:  300px ;
+  border : #a90a0a inset 0.3rem;
+}
+.corps img {
+display : flex ;
+flex-direction : column ;
+justify-content : center ;
+margin : auto ;
+height : 250px;
+width:  300px ;
+border : #a90a0a inset 0.3rem;
+}
+
+.sandwich img {
+margin : auto ;
+height : 250px;
+border : #a90a0a inset 0.3rem;
+}
+.sandwich{
+text-align: center  ;
+font-size : 1.5em ;
+font-weight : bold ;
+}
+.sandwich h2 {
+  display: inline;
+
+}
+.résultat  {
+text-align: center  ;
+font-size : 1.5em ;
+font-weight : bold ;
+
+}
+
+h2 {
+  font-size : 1em ;
+  margin-top: 0 ;
+
+}
